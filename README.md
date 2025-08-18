@@ -27,7 +27,7 @@ public class SwapTwoNumbers {
 
         System.out.println("\nAfter swapping:");
         System.out.println("First number = " + num1);
-        System.out.println("Second number = " + num2);
+        System.out.print("Second number = " + num2);
 
         scanner.close();
     }
