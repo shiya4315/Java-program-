@@ -1,0 +1,21 @@
+import java.util.*;
+public class LargestNumber{
+  public static void main(String [] args){
+     scanner sc=new scanner(System.in);
+    System. out.println("number of element in an array:");
+   int e=sc.nextInt();
+    int arr[]=new int[e];
+for(int i=0;i<=e;i++){
+  System.out.println("enter element +(i+1)+:");
+    arr[i]=sc.nextInt();
+   int laragest=arr[0];
+for(int i=0;i<=e;i++){
+   if(arr[i]>laragest){
+      laragest =arr[i];
+}
+}
+System.out.println("laragest number in the array :"+laragest);
+sc.close();
+}
+}
+}
